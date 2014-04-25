@@ -16,17 +16,20 @@ ImageSelect - это JQuery плагин, который позволяет ка
         <option value="4" icon="/icons/travel.png" iconhover="/iconsHover/travel.png">Поездка</option>
     </select>
     
-    Аттрибут icon определяет картинку option, а iconhover картинку при наведении.
+
+Аттрибут icon определяет картинку option, а iconhover картинку при наведении.
     
         
-    Инициализация:
+Инициализация:
     
     $('#category').ImageSelect({ 'width': '194' });
     
-    Методы:
+Методы:
     
-    "getVal" Получает текущее значение:
+"getVal" Получает текущее значение:
+
     $('#category').ImageSelect('getVal');
     
-    "setVal" Задает значение:
+"setVal" Задает значение:
+
     $('#category').ImageSelect('setVal',3);
